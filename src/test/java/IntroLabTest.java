@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void testDaiweiy2() {
+        String expected = "Hello! My name is Stu Dent! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.daiweiy2();
+        assertEquals(expected, actual);
+    }
+
 }
